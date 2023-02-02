@@ -38,25 +38,48 @@ Pandas (>= 0.23)
 ## Training
 python main.py --n_route {%num_route%} --graph {%weight_matrix.csv%}
 ### Folder structure
-
-######├── data_loader 
-######│   ├── data_utils.py 
-######│   └── __init__.py 
-######├── dataset 
-######│   ├── trainset.csv 
-######│   └── testset.csv 
-######├── main.py 
-######├── models 
-│   ├── base_model.py 
-│   ├── __init__.py 
-│   ├── layers.py 
-│   ├── tester.py 
-│   └── trainer.py 
-├── output 
-│   ├── models 
-│   └── tensorboard 
-├── README.md 
-└── utils 
-    ├── __init__.py 
-    ├── math_graph.py 
-    └── math_utils.py 
+│ │ README.md
+│ │
+│ ├─regexpu-core
+│ │ │ LICENSE-MIT.txt
+│ │ │ package.json
+│ │ │ README.md
+│ │ │ rewrite-pattern.js
+│ │ │
+│ │ └─data
+│ │ character-class-escape-sets.js
+│ │ iu-mappings.js
+│ │
+│ ├─regjsgen
+│ │ LICENSE
+│ │ package.json
+│ │ README.md
+│ │ regjsgen.js
+│ │
+│ ├─regjsparser
+│ │ │ CHANGELOG
+│ │ │ LICENSE.BSD
+│ │ │ package.json
+│ │ │ parser.js
+│ │ │ README.md
+│ │ │
+│ │ ├─bin
+│ │ │ parser
+│ │ │
+│ │ └─node_modules
+│ │ ├─.bin
+│ │ │ jsesc
+│ │ │ jsesc.cmd
+│ │ │
+│ │ └─jsesc
+│ │ │ jsesc.js
+│ │ │ LICENSE-MIT.txt
+│ │ │ package.json
+│ │ │ README.md
+│ │ │
+│ │ ├─bin
+│ │ │ jsesc
+│ │ │
+│ │ └─man
+│ │ jsesc.1
+│ │
