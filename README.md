@@ -1,8 +1,7 @@
-# Data Source
+# Dataset
+## Data Source
 
-
-
-# Data Format
+## Data Format
 
 ### user_grab_train_ticket_log.csv
 The data set covers  of approximately 2 million random users from June 3, 2019 to June 3, 2022. The detailed description of the dataset is shown in the following table.
@@ -20,3 +19,19 @@ The data set covers  of approximately 2 million random users from June 3, 2019 t
 | IS SUCC |  An integer that represents grabbing ticket success or not, 1 represents success, 0 represents failure|
 | SUCC TIMESTAMP|  An integer that represents the time of the grabbing ticket success |
 
+### Data Preprocessing
+
+
+# Prerequisites
+
+Our code is based on Python3 (>= 3.6). There are a few dependencies to run the code. The major libraries are listed as follows:
+
+TensorFlow (>= 1.9.0)
+NumPy (>= 1.15)
+SciPy (>= 1.1.0)
+Pandas (>= 0.23)
+
+# Model Details
+## Training
+python main.py --n_route {%num_route%} --graph {%weight_matrix.csv%}
+### Folder structure
