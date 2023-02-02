@@ -29,20 +29,20 @@ The data set covers  of approximately 2 million random users from June 3, 2019 t
 
 Our code is based on Python3 (>= 3.6). There are a few dependencies to run the code. The major libraries are listed as follows:
 
-TensorFlow (>= 1.9.0)
-NumPy (>= 1.15)
-SciPy (>= 1.1.0)
-Pandas (>= 0.23)
+* TensorFlow (>= 1.9.0)
+* NumPy (>= 1.15)
+* SciPy (>= 1.1.0)
+* Pandas (>= 0.23)
 
 # Model Details
 ## Training
 python main.py --n_route {%num_route%} --graph {%weight_matrix.csv%}
 ### Folder structure
 
-├── data_loader
-│   ├── data_utils.py
-│   └── __init__.py
-├── dataset
+* ├── data_loader
+* │   ├── data_utils.py
+* │   └── __init__.py
+* ├── dataset
 │   ├── trainset.csv
 │   └── testset.csv
 ├── main.py
