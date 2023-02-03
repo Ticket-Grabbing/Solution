@@ -44,6 +44,5 @@ Our code is based on Python3 (>= 3.6). There are a few dependencies to run the c
 python main.py --model IPT --mode train
 ### Folder structure
 
-![image](https://user-images.githubusercontent.com/124276774/216503369-6eacabab-00f9-4071-a6e0-ecfc3f0c05c8.png)
+<img src="[https://img-blog.csdnimg.cn/2020102116384135.png](https://user-images.githubusercontent.com/124276774/216503441-f9fe9996-357c-4dba-a456-3df0cdec6ffa.png)" width="100px">
 
-* │   └── test_dataset.csv
