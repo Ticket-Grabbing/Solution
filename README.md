@@ -44,16 +44,14 @@ Our code is based on Python3 (>= 3.6). There are a few dependencies to run the c
 python main.py --model IPT --mode train
 ## Parameter settings:
 
-n_route=228, graph='default', ks=3, kt=3, n_his=12, n_pred=9
-batch_size=50, epoch=50, lr=0.001, opt='RMSProp', inf_mode='merge', save=10
-
-* --model_version=stfgnn 
+* --model_version=IPT_base 
+* --batch_size=50
+* --epoch=10
+* --lr=3e-2 
 * --T=15 
 * --T_prime=3 
-* --statics_feats=False 
-* --standardize_feats=True 
-* --lr=3e-2 
-* --epochs=10   
+* --statics_feats=True 
+* --category_feats=True 
 * -Dcluster="{\"worker\":{\"gpu\":100}}"
     
 
