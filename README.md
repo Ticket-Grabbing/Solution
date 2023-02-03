@@ -44,5 +44,10 @@ Our code is based on Python3 (>= 3.6). There are a few dependencies to run the c
 python main.py --model IPT --mode train
 ### Folder structure
 
-![image](https://user-images.githubusercontent.com/124276774/216503682-4dfe5ad5-7e8e-4610-a484-6ed6b471a4e2.png)
+<img src="https://img-blog.csdnimg.cn/2020102116384135.png" width="100px">
+
+<img src="[https://img-blog.csdnimg.cn/2020102116384135.png](https://user-images.githubusercontent.com/124276774/216503682-4dfe5ad5-7e8e-4610-a484-6ed6b471a4e2.png)" width="100px">
+
+
+https://user-images.githubusercontent.com/124276774/216503682-4dfe5ad5-7e8e-4610-a484-6ed6b471a4e2.png
 
