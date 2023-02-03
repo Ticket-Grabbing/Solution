@@ -7,7 +7,7 @@ The data and code disclosure process is under way, and will be updated later.
 ## Data Format
 
 ### user_grab_train_ticket_log.csv
-The data set covers  of approximately 2 million random users from June 3, 2019 to June 3, 2022. The detailed description of the dataset is shown in the following table.
+The dataset are collected at an OTP from December 15, December to June 15, 2022, which covers of approximately 3.52 million users' ticket-grabbing data. The detailed description of the dataset is shown in the following table.
 
 | Field | Explanation |
 | --- | --- |
