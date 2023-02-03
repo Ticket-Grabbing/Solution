@@ -1,7 +1,7 @@
 # Dataset
 The dataset are collected at an OTP from December 15, December to June 15, 2022, which covers of approximately 3.52 million users' ticket-grabbing data. The detailed statistics of the dataset is shown in the following table.
 
-![image](https://user-images.githubusercontent.com/124276774/216503095-d1baef0a-1abf-4d28-90d9-d9087b0fe34f.png)
+![image](https://user-images.githubusercontent.com/124276774/216503180-8953b7fd-1fae-46d9-8729-6fe2effe55b4.png)
 
 
 ## Data Source
