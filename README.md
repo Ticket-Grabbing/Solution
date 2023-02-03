@@ -39,8 +39,8 @@ Our code is based on Python3 (>= 3.6). There are a few dependencies to run the c
 python main.py --model IPT --mode train
 ### Folder structure
 
-# ├── data_loader
-# │   ├── data_utils.py
+* ├── data_loader
+* │   ├── data_utils.py
 * │   └── __init__.py
 * ├── dataset
 * │   ├── trainset.csv
