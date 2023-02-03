@@ -44,24 +44,6 @@ Our code is based on Python3 (>= 3.6). There are a few dependencies to run the c
 python main.py --model IPT --mode train
 ### Folder structure
 
-* ├── data_loader
-* │   ├── data_utils.py
-* │   └── __init__.py
-* ├── dataset
-* │   ├── trainset.csv
-* │   └── testset.csv
-* ├── main.py
-* ├── models
-* │   ├── model_fun.py
-* │   ├── __init__.py
-* │   ├── layers.py
-* │   ├── tester.py
-* │   └── trainer.py
-* ├── output
-* │   ├── models
-* │   └── tensorboard
-* ├── README.md
-* └── utils
-*     ├── __init__.py
-*     ├── math_graph.py
-*     └── math_utils.py
+![image](https://user-images.githubusercontent.com/124276774/216503369-6eacabab-00f9-4071-a6e0-ecfc3f0c05c8.png)
+
+* │   └── test_dataset.csv
