@@ -1,5 +1,8 @@
 # Dataset
-The dataset are collected at an OTP from December 15, December to June 15, 2022, which covers of approximately 3.52 million users' ticket-grabbing data. The detailed description of the dataset is shown in the following table.
+The dataset are collected at an OTP from December 15, December to June 15, 2022, which covers of approximately 3.52 million users' ticket-grabbing data. The detailed statistics of the dataset is shown in the following table.
+
+![image](https://user-images.githubusercontent.com/124276774/216503095-d1baef0a-1abf-4d28-90d9-d9087b0fe34f.png)
+
 
 ## Data Source
 
@@ -7,7 +10,7 @@ The data and code disclosure process is under way, and will be updated later.
 
 
 ## Data Format
-The dataset are collected at an OTP from December 15, December to June 15, 2022, which covers of approximately 3.52 million users' ticket-grabbing data. The detailed description of the dataset is shown in the following table.
+ The detailed description of the dataset is shown in the following table.
 ### user_grab_train_ticket_log.csv
 
 
