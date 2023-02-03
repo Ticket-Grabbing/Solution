@@ -28,7 +28,7 @@ The data and code disclosure process is under way, and will be updated later.
 | SUCC TIMESTAMP|  An integer that represents the timestamp of the grabbing ticket success |
 
 ### Data Preprocessing
-
+All the samples are classified into two sets, i.e., 80% samples as the training set and 20% samples as the validation set. During the training phase, all the relevant data recorded before 15/11/2022 are used as the input data, and the target ticket-grabbing ticket success probability identified during the next periodical, i.e., from 16/11/2022 to 30/11/2022, are used as labels. During the testing phase, the logs from the date 01/12/2022 to the date 15/12/2022 are used as the testing data.
 
 # Prerequisites
 
