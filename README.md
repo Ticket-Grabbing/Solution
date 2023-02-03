@@ -16,8 +16,8 @@ The data and code disclosure process is under way, and will be updated later.
 
 | Field | Explanation |
 | --- | --- |
-| User ID | An integer, the serialized ID that represents a user |
-| DEP TIMESTAMP|  An integer that represents the timestamp of the departure time |
+| user_id | An integer, the serialized ID that represents a user |
+| departure_time|  An integer that represents the timestamp of the departure time |
 | DEP STATION ID|  An integer, the serialized ID that represents the departure city station |
 | DES STATION ID |  An integer, the serialized ID that represents the destination city station |
 | TRAIN ID |  An integer, the serialized ID that represents the train number|
