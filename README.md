@@ -45,8 +45,8 @@ python main.py --model IPT --mode train
 ## Parameter settings:
 
 * --model_version=IPT_base 
-* --batch_size=50
-* --epoch=10
+* --batch_size=512
+* --epoch=50
 * --lr=3e-2 
 * --T=15 
 * --T_prime=3 
