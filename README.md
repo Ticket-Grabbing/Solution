@@ -36,7 +36,7 @@ Our code is based on Python3 (>= 3.6). There are a few dependencies to run the c
 
 # Model Details
 ## Training
-python main.py --n_route {%num_route%} --graph {%weight_matrix.csv%}
+python main.py --model IPT --mode train
 ### Folder structure
 
 * ├── data_loader
@@ -47,7 +47,7 @@ python main.py --n_route {%num_route%} --graph {%weight_matrix.csv%}
 * │   └── testset.csv
 * ├── main.py
 * ├── models
-* │   ├── base_model.py
+* │   ├── model_fun.py
 * │   ├── __init__.py
 * │   ├── layers.py
 * │   ├── tester.py
