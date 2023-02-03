@@ -1,7 +1,7 @@
 # Dataset
 ## Data Source
 
-The data disclosure process is under way, and will be updated later.
+The data and code disclosure process is under way, and will be updated later.
 
 
 ## Data Format
