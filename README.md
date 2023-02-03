@@ -18,14 +18,14 @@ The data and code disclosure process is under way, and will be updated later.
 | --- | --- |
 | user_id | An integer, the serialized ID that represents a user |
 | departure_time|  An integer that represents the timestamp of the departure time |
-| DEP STATION ID|  An integer, the serialized ID that represents the departure city station |
-| DES STATION ID |  An integer, the serialized ID that represents the destination city station |
-| TRAIN ID |  An integer, the serialized ID that represents the train number|
-| ODT ID |  An integer, the serialized ID that represents the combination of the departure station and destination station and train number|
-| ORDER TIMESTAMP|  An integer that represents the timestamp of the pay the ticket |
-| ORDER ID|  An integer, the serialized ID that represents the order ID |
-| IS SUCC |  An integer that represents grabbing ticket success or not, 1 means success while 0 means failure|
-| SUCC TIMESTAMP|  An integer that represents the timestamp of the grabbing ticket success |
+| departure_station|  An integer, the serialized ID that represents the departure city station |
+| destination_station |  An integer, the serialized ID that represents the destination city station |
+| train_number |  An integer, the serialized ID that represents the train number|
+| ODT_id |  An integer, the serialized ID that represents the combination of the departure station and destination station and train number|
+| pay_time|  An integer that represents the timestamp of the pay the ticket |
+| order_id|  An integer, the serialized ID that represents the order ID |
+| is_success |  An integer that represents grabbing ticket success or not, 1 means success while 0 means failure|
+| success_time|  An integer that represents the timestamp of the grabbing ticket success |
 
 ### Data Preprocessing
 All the samples are classified into two sets, i.e., 80% samples as the training set and 20% samples as the validation set. During the training phase, all the relevant data recorded before 15/11/2022 are used as the input data, and the target ticket-grabbing ticket success probability identified during the next periodical, i.e., from 16/11/2022 to 30/11/2022, are used as labels. During the testing phase, the logs from the date 01/12/2022 to the date 15/12/2022 are used as the testing data.
